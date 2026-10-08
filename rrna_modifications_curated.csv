@@ -1,0 +1,9 @@
+site_id,subunit,position,mod_type,region,delta_delta_g_kcal,essentiality_alpha,data_source
+18S:U1248,18S,1248,Psi,P-site,0.95,0.09,Experimental (Ribo-seq Dwell Time)
+18S:C1703,18S,1703,2OMe,A-site,1.1,0.1,Biophysical Estimation (Umbrella Sampling)
+18S:N1272,18S,1272,2OMe,P-site,0.6,0.04,RMBase_v3
+28S:U1864,28S,1864,Psi,PTC,1.2,0.12,Experimental (Single-Molecule FRET)
+28S:U3714,28S,3714,Psi,PTC,0.85,0.08,Biophysical Estimation (MD Simulation)
+28S:N2415,28S,2415,2OMe,PTC,0.65,0.05,Experimental (MODOMICS / Mass Spec)
+28S:N1858,28S,1858,2OMe,Peptidyl Transferase,0.75,0.06,RMBase_v3
+28S:U4366,28S,4366,Psi,GTPase Center,0.5,0.03,RMBase_v3

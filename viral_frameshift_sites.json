@@ -1,0 +1,26 @@
+[
+    {
+        "virus": "HIV-1",
+        "accession": "NC_001802.1",
+        "full_name": "Human immunodeficiency virus 1 (HIV-1), complete genome",
+        "sequence_length_nts": 9181,
+        "slippery_site_seq": "UUUAAAU",
+        "annotated_slippery_pos": 2085,
+        "verified_slippery_pos_in_seq": 788,
+        "base_pause_sec": 0.48,
+        "pseudoknot_unwinding_kcal": 2.1,
+        "data_source": "Experimental (Tinoco Optical Tweezers / PDB 7L00)"
+    },
+    {
+        "virus": "SARS-CoV-2",
+        "accession": "NC_045512.2",
+        "full_name": "Severe acute respiratory syndrome coronavirus 2, complete genome",
+        "sequence_length_nts": 29903,
+        "slippery_site_seq": "UUUAAAC",
+        "annotated_slippery_pos": 13462,
+        "verified_slippery_pos_in_seq": 1664,
+        "base_pause_sec": 0.52,
+        "pseudoknot_unwinding_kcal": 3.4,
+        "data_source": "Experimental (Cryo-EM / PDB 6XR8)"
+    }
+]
