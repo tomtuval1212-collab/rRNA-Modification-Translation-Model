@@ -35,11 +35,15 @@ The input files include
 - `viral_frameshift_sites.json` — Viral frameshifting sites and associated model parameters.
 - `viral_sequences.fasta` — Viral nucleotide sequences.
 
-**Important** — This is an exploratory computational model. Several input parameters are assumed or estimated rather than experimentally measured, and their source annotations require verification.
+### Scientific Scope and Limitations
 
-The 90% host translation retention threshold is a modeling choice, not an experimentally established safety threshold.
+This project is an exploratory computational simulation intended to investigate how depletion of selected rRNA modifications might influence ribosomal pausing at viral programmed frameshift sites in HIV-1 and SARS-CoV-2. Some source annotations for input parameters still require independent verification.
 
-The current predictions have not been experimentally validated and should not be interpreted as demonstrated viral inhibition or measured changes in frameshifting efficiency.
+The model uses assumed energetic and biological parameters where experimentally validated measurements are unavailable. The predicted stalling effects represent model-derived changes in ribosomal pause duration, not experimentally measured viral inhibition, frameshifting efficiency, or replication outcomes.
+
+The 90% host translation retention threshold is a user-defined screening criterion and does not establish biological safety.
+
+The Eyring-inspired kinetic model and the scaling of pause duration by RNA-structure energy barriers are simplified modeling assumptions requiring experimental validation. Candidate rankings should therefore be interpreted as hypotheses for future investigation rather than validated therapeutic targets.
 
 ## Installation and Usage
 
@@ -92,6 +96,6 @@ The figure below shows the modeled effects of rRNA modification depletion on vir
 
 ## Copyright and Usage
 
-Copyright © 2026. All Rights Reserved.
+Copyright © 2026 Tom Tuval. All Rights Reserved.
 
 This project is publicly available for viewing and educational reference. Permission from the copyright holder is required to copy, modify, redistribute, or reuse the code and associated original materials.
