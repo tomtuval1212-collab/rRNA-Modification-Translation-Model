@@ -83,3 +83,9 @@ The long-term goal is to develop a computational framework that can generate tes
 ## Project Status
 
 **Under active development — experimental validation planned.**
+
+## Simulation Results
+
+The figure below shows the modeled effects of rRNA modification depletion on viral ribosomal pausing and host translation retention.
+
+![Biophysical simulation results](Hybrid_MultiTarget_Annotated_Clean.png)
